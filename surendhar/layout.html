@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>css Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="Width=device-width, initial-scale=1">
+<style>
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: pink;
+    padding:20px;
+    font-size: 25px;
+    color:blue;
+     
+}
+nav {
+    float: left;
+    width:20% ;
+    height:300px;
+    background: yellow;
+    padding:15px;
+}
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    display: inline;
+}
+article {
+    float: left;
+    padding:15px;
+    width:80%;
+    background-color: aqua;
+    height: 300px;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: rgb(166, 85, 72);
+    padding:10px;
+    text-align: center;
+    color:rgb(46, 7, 199);
+}
+@media (max-width: 600px) {
+    nav , article {
+        width: 100%;
+        height: auto;
+      }
+    }
+</style>
+
+</head>
+<body>
+<h2> buteful Flowers</h2>
+<p>This a buteful flowers created.</p>
+<header>
+<h2>Flowers</h2>
+
+<img src="./image/images.jpg" alt="flover" style="width:50px;height:55px;">
+<nav>                           
+    <ul>
+   <li><a href="./surendhar.html">ROS</a>
+   </li>
+    <li><a href="#">jasmin</a>
+   </li>
+    <li><a href="#">gold</a>
+   </li>
+    </ul>
+   </nav>
+</header>
+<section>
+<article>
+    <h1>Flowers</h1>
+    <P>Standing on the river thames flowers beautiful imags and 
+    butterflys in flowers.</P>
+    </article>
+</section>
+ <footer>
+    <p>Flowers</p>
+</footer>
+</body>
+</html>
