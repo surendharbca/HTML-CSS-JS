@@ -75,7 +75,7 @@
   }
 
   a:hover {
-    color: red;
+    color: rgb(231, 4, 4);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -83,46 +83,24 @@
   a:active {
     color: yellow;
     background-color: transparent;
-    text-decoration: underline;
-    
+    text-decoration: underline;   
   }
-  .box{
-    border: 1px solid rgb(14, 14, 14);
-    margin-right: 20px;
-    margin-top: 10px;
-    padding: 5px;
-    display: inline-block;
-  
-}
-.box img {
-    margin:5px;width: 200px;height: 200px;  
+
+.psv{
+  float: left;
 }
   .suray{
     margin: auto;
     width: 30px;
     height: 30px;
 }
-.snt{
-  color: rgb(244, 92, 219);
-}
-.shop{
-  color: rgb(60, 231, 71);
-}
-button{
-  float: right;
-  background-color: rgb(18, 242, 223);
-  padding: 10px;  
-}
-.kvr{
-  background-color: aqua;
-}
-  </style>
+</style>
  <bady>
   <header>
 
-
+<div>
   <img src="./image/images.ms.jpg" alt="flipkard" style="width:400px;height: 100px;">
-  <button class="Login"> <a href="./Login.html" >Login</a></button>
+  <button onclick="document.location='default.asp'" style="float:right">Login</button>
   <div>
     <img src="image/vs.$.gif" alt="cart" style="float: right" width="40px;height:30px">
   </div>
@@ -132,7 +110,7 @@ button{
 <nav>
     <form autocomplete="on">
     <div class="suray" style="display: flex;">
-         <input class="kvr" type="text" placeholder="search anything"name>
+         <input type="text" placeholder="search anything"name>
         <button type="submit" width="80px;height40px">
           <img src="./image/mss.%.gif" alt="search" style="float:right;" width="20px;height15px">
         </button>
@@ -169,45 +147,29 @@ button{
     </article>
     </section>
     <article>
+        <form class="psv" action="/action_page.php">
+            <fieldset>
+              <legend>User Login:</legend>
+            <label for="User Name">User Name:</label><br>
+            <input type="text" id="User Name" name="User Name"><br>
+            <label for="Last Name">Last Name:</label><br>
+            <input type="text" id="Last Name" name="Last Name"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br><br> 
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email"><br><br>
+            <label for="Date and months">Date and months :</label><br>
+            <input type="date" id="Date and months" name="Date and months"><br><br>
+    
+            <input type="image" src="./Flights0001.webp" alt="Submit" width="48" height="48"><br><br>
+            
+            </fieldset>
+          </form>
 
-        <div>
-      <div class="box"style="border-ridge">
-        <img src="./moush7.webp"  alt="mobiles1">
-        <p>MOUSH</p>
-        <P class="snt">Grab Now</P>
-        <p> PRICE:&#8377;1000.</p>
-        <p class="shop">Upto 45% off</p>
-        
-      </div>
-      <div class="box"style="border-radius">
-        <img src="./airpods8.jpg" alt="mobiles1" >
-        <P>AIRPODS</P>
-        <P class="snt">Shop Now</P>
-        <p> PRICE:&#8377;5000.</p>
-        <p class="shop">Upto 50% off</p>
-      </div>
-      <div class="box">
-        <img src="./gaming headset9.webp" alt="mobiles1" >
-        <P>GAMING HEADSET</P>
-        <P class="snt">Grab Now</P>
-        <p> PRICE:&#8377;2000.</p>
-        <p class="shop">Upto 35% off</p>
-      </div>
-      <div class="box">
-        <img src="./image/google speker2.jpg" alt="mobiles1" >
-        <P>GOOGLE SPEKER</P>
-        <P class="snt">Shop Now</P>
-        <p> PRICE:&#8377;6000.</p>
-        <p class="shop">Upto 4o% off</p>
-      </div>
-      <div class="box">
-        <img src="./headphon6.jpg" alt="mobiles1" >
-        <P>HEADPHON</P>
-        <P class="snt">Grab Now</P>
-        <p> PRICE:&#8377;1000.</p>
-        <p class="shop">Upto 60% off</p>
-      </div>
-       </article>
+
+
+
+    </article>
     <footer>
       <li><a href="https://www.youtube.com/flipkart">Gifts</a></li>
     </footer>

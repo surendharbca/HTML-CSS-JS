@@ -96,8 +96,24 @@
     margin: auto;
     width: 30px;
     height: 30px;
+    background-color: rgb(17, 223, 223);
 }
 .grab{
   color: rgb(11, 33, 158);
+}
+
+
+
+button{
+  float: right;
+  background-color: rgb(18, 242, 223);
+  padding: 10px;  
+}
+.arts{
+  float: right;
+  background-color: rgb(13, 236, 13);
+}
+.kvr{
+  background-color: aqua;
 }
      

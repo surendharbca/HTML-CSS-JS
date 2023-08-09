@@ -151,3 +151,11 @@
   font-size: 0px;
   padding-bottom: 4px;
 }
+button{
+  float: right;
+  background-color: rgb(18, 242, 223);
+  padding: 10px;  
+}
+.kvr{
+  background-color: aqua;
+}

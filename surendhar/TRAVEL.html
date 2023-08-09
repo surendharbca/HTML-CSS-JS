@@ -94,13 +94,22 @@
 .psv{
   float: left;
 }
+button{
+  float: right;
+  background-color: rgb(18, 242, 223);
+  padding: 10px;  
+}
+.kvr{
+  background-color: aqua;
+}
+
   </style>
  <bady>
   <header>
 
-<div>
+
   <img src="./image/images.ms.jpg" alt="flipkard" style="width:400px;height: 100px;">
-  <button onclick="document.location='default.asp'" style="float:right">Login</button>
+  <button class="Login"> <a href="./Login.html" >Login</a></button>
   <div>
     <img src="image/vs.$.gif" alt="cart" style="float: right" width="40px;height:30px">
   </div>
@@ -110,7 +119,7 @@
 <nav>
     <form autocomplete="on">
     <div class="suray" style="display: flex;">
-         <input type="text" placeholder="search anything"name>
+         <input class="kvr" type="text" placeholder="search anything"name>
         <button type="submit" width="80px;height40px">
           <img src="./image/mss.%.gif" alt="search" style="float:right;" width="20px;height15px">
         </button>
