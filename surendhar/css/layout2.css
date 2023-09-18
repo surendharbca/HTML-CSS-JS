@@ -90,7 +90,9 @@
   
 }
 .box img {
-    margin:5px;width: 200px;height: 200px;  
+    margin:5px;
+    width: 200px;
+    height: 200px;  
 }
 .suray{
     margin: auto;
@@ -114,6 +116,6 @@ button{
   background-color: rgb(13, 236, 13);
 }
 .kvr{
-  background-color: aqua;
+  background-color: whitesmoke;
 }
      
